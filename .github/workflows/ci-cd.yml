@@ -294,7 +294,13 @@ jobs:
 
       - name: Generate API documentation
         run: |
+          mkdir -p docs
           pdoc --html --output-dir docs src api || echo "Documentation generation skipped"
+          # Create a placeholder if docs is empty
+          if [ -z "$(ls -A docs 2>/dev/null)" ]; then
+            echo "# API Documentation" > docs/README.md
+            echo "Documentation generation was skipped or failed." >> docs/README.md
+          fi
 
       - name: Upload documentation
         uses: actions/upload-artifact@v4
@@ -302,6 +308,7 @@ jobs:
         with:
           name: documentation
           path: docs/
+          if-no-files-found: ignore
 
   # ============================================
   # Summary Job

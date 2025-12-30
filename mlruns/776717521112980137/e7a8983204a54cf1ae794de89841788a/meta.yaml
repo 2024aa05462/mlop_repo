@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/koush/OneDrive/Documents/BITS Pilani/MLOPS/heart_disease_mlops/mlruns/776717521112980137/e7a8983204a54cf1ae794de89841788a/artifacts
+end_time: 1766972234338
+entry_point_name: ''
+experiment_id: '776717521112980137'
+lifecycle_stage: active
+run_id: e7a8983204a54cf1ae794de89841788a
+run_name: xgboost_tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766972221890
+status: 3
+tags: []
+user_id: koush

@@ -1,0 +1,16 @@
+mlflow:
+  tracking_uri: "file:./mlruns"
+  experiment_name: "heart_disease_classification"
+  artifact_location: "./mlflow_artifacts"
+
+tracking:
+  log_system_metrics: true
+  log_models: true
+  log_artifacts: true
+
+autolog:
+  sklearn:
+    enabled: true
+    log_input_examples: true
+    log_model_signatures: true
+    max_tuning_runs: 5

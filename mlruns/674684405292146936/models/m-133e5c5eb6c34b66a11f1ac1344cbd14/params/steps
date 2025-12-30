@@ -1,0 +1,6 @@
+[('preprocessor', ColumnTransformer(transformers=[('num', StandardScaler(),
+                                 ['age', 'trestbps', 'chol', 'thalach',
+                                  'oldpeak']),
+                                ('cat', OneHotEncoder(handle_unknown='ignore'),
+                                 ['sex', 'cp', 'fbs', 'restecg', 'exang',
+                                  'slope', 'ca', 'thal'])])), ('classifier', RandomForestClassifier(max_depth=10, n_estimators=200, random_state=42))]

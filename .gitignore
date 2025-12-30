@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+test-results.xml
+
+# MLflow (keep for experiment tracking)
+# mlruns/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Prefect
+.prefect/
+
+# Logs
+logs/
+*.log
+
+# Data (keep processed for reproducibility)
+data/raw/*.csv
+!data/raw/heart_disease_raw.csv
+!data/processed/
+
+# Models (keep production artifacts)
+models/archived/
+models/mlflow_models/
+!models/production/
+
+# Docker
+*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Secrets
+*.pem
+*.key
+secrets/

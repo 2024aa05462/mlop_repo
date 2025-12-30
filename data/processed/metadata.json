@@ -1,0 +1,7 @@
+{
+    "timestamp": "2025-12-28T20:53:50.743615",
+    "train_size": 212,
+    "val_size": 45,
+    "test_size": 46,
+    "columns": "See feature_names.json"
+}

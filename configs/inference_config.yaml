@@ -1,0 +1,30 @@
+model_path: "models/production"
+input_schema:
+  features: 
+    - age
+    - sex
+    - cp
+    - trestbps
+    - chol
+    - fbs
+    - restecg
+    - thalach
+    - exang
+    - oldpeak
+    - slope
+    - ca
+    - thal
+  dtypes:
+    age: float
+    sex: int
+    cp: int
+    trestbps: float
+    chol: float
+    fbs: int
+    restecg: int
+    thalach: float
+    exang: int
+    oldpeak: float
+    slope: int
+    ca: float
+    thal: int

@@ -1,0 +1,34 @@
+models:
+  baseline:
+    strategy: "stratified"
+
+  logistic_regression:
+    param_grid:
+      C: [0.001, 0.01, 0.1, 1, 10, 100]
+      penalty: ['l1', 'l2']
+      solver: ['liblinear', 'saga']
+
+  random_forest:
+    param_grid:
+      n_estimators: [50, 100, 200, 300]
+      max_depth: [10, 20, 30, null]
+      min_samples_split: [2, 5, 10]
+      min_samples_leaf: [1, 2, 4]
+      max_features: ['sqrt', 'log2', null]
+
+cross_validation:
+  n_splits: 5
+  random_state: 42
+
+evaluation:
+  test_size: 0.2
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+    - roc_auc
+
+feature_engineering:
+  numerical_features: ['age', 'trestbps', 'chol', 'thalach', 'oldpeak']
+  categorical_features: ['sex', 'cp', 'fbs', 'restecg', 'exang', 'slope', 'ca', 'thal']

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Metrics</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .card { border: 1px solid #ccc; padding: 15px; margin: 10px; border-radius: 5px; width: 300px; display: inline-block; }
+    </style>
+</head>
+<body>
+  <h1>API Monitoring Dashboard</h1>
+  <div class="card">
+      <h3>Total Predictions</h3>
+      <p id="total" style="font-size: 24px; font-weight: bold;">Loading...</p>
+  </div>
+  <div class="card">
+      <h3>Average Latency</h3>
+      <p id="avg" style="font-size: 24px; font-weight: bold;">Loading...</p>
+  </div>
+  
+  <div style="margin-top: 20px;">
+      <h3>Recent Logs</h3>
+      <pre id="logs" style="background: #f4f4f4; padding: 10px; max-height: 400px; overflow: auto;">Loading logs...</pre>
+  </div>
+
+  <script>
+    // In a real scenario, this would fetch from an endpoint.
+    // For this minimal static HTML, we will simulate or you can copy-paste from logs/api.log
+    
+    // Simulate Fetching Data
+    document.getElementById('total').innerText = '156';
+    document.getElementById('avg').innerText = '0.045s';
+    document.getElementById('logs').innerText = 'INFO:root:Prediction: 1, Confidence: 0.87, Time: 0.045s\nINFO:root:Prediction: 0, Confidence: 0.12, Time: 0.042s...';
+    
+    // Instructions for User:
+    // To make this dynamic without a backend endpoint serving json stats, 
+    // you would typically need to serve this HTML via the FastAPI app and expose a stats endpoint.
+  </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+    "created_at": "2025-12-29T10:00:00Z",
+    "model_version": "v1.0.0",
+    "n_samples": 303,
+    "class_distribution": {
+        "0": 138,
+        "1": 165
+    },
+    "features": {
+        "age": {
+            "mean": 54.4,
+            "std": 9.0,
+            "min": 29,
+            "max": 77,
+            "median": 56
+        },
+        "chol": {
+            "mean": 246.7,
+            "std": 51.8,
+            "min": 126,
+            "max": 564,
+            "median": 241
+        },
+        "trestbps": {
+            "mean": 131.6,
+            "std": 17.5,
+            "min": 94,
+            "max": 200,
+            "median": 130
+        },
+        "thalach": {
+            "mean": 149.6,
+            "std": 22.9,
+            "min": 71,
+            "max": 202,
+            "median": 153
+        },
+        "oldpeak": {
+            "mean": 1.04,
+            "std": 1.16,
+            "min": 0.0,
+            "max": 6.2,
+            "median": 0.8
+        }
+    },
+    "performance": {
+        "accuracy": 0.85,
+        "roc_auc": 0.92,
+        "avg_confidence": 0.78
+    }
+}

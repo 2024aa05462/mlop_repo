@@ -1,0 +1,24 @@
+{
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "age_group",
+    "chol_cat",
+    "bp_cat",
+    "hr_reserve",
+    "age_x_thalach",
+    "chol_x_bp"
+  ],
+  "n_features": 19
+}

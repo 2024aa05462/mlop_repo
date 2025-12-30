@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/koush/OneDrive/Documents/BITS Pilani/MLOPS/heart_disease_mlops/mlruns/776717521112980137/models/m-46107f220e494a559f768e866bea2ee4/artifacts
+creation_timestamp: 1766972234151
+experiment_id: '776717521112980137'
+last_updated_timestamp: 1766972234273
+model_id: m-46107f220e494a559f768e866bea2ee4
+model_type: null
+name: model
+source_run_id: e7a8983204a54cf1ae794de89841788a
+status: 3
+status_message: null

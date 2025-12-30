@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/koush/OneDrive/Documents/BITS%20Pilani/MLOPS/heart_disease_mlops/mlruns/674684405292146936/models/m-133e5c5eb6c34b66a11f1ac1344cbd14/artifacts
+creation_timestamp: 1766973990047
+experiment_id: '674684405292146936'
+last_updated_timestamp: 1766973994413
+model_id: m-133e5c5eb6c34b66a11f1ac1344cbd14
+model_type: null
+name: best_estimator
+source_run_id: b0f38d66ed184dbc93918191628cbde9
+status: 2
+status_message: null

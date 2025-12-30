@@ -1,0 +1,36 @@
+{
+  "timestamp": "2025-12-28T20:56:16.137745",
+  "model_info": {
+    "type": "RandomForestClassifier",
+    "module": "sklearn.ensemble._forest",
+    "sklearn_version": "1.8.0"
+  },
+  "preprocessor_info": {
+    "type": "ColumnTransformer",
+    "steps": []
+  },
+  "python_version": "3.13.7",
+  "user_metadata": {
+    "model_name": "heart_disease_classifier",
+    "model_type": "RandomForestClassifier",
+    "version": "1.0.0",
+    "train_date": "2025-12-28",
+    "author": "Koushik Jana",
+    "dataset": "UCI Heart Disease",
+    "random_seed": 42,
+    "data_version": "v1.0",
+    "performance": {
+      "test_accuracy": 0.85,
+      "test_roc_auc": 0.92
+    },
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": 10
+    }
+  },
+  "reproducibility": {
+    "random_seed": 42,
+    "train_date": "2025-12-28",
+    "data_version": "v1.0"
+  }
+}

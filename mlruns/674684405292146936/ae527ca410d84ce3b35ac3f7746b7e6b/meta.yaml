@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/koush/OneDrive/Documents/BITS%20Pilani/MLOPS/heart_disease_mlops/mlruns/674684405292146936/ae527ca410d84ce3b35ac3f7746b7e6b/artifacts
+end_time: 1766973994446
+entry_point_name: ''
+experiment_id: '674684405292146936'
+lifecycle_stage: active
+run_id: ae527ca410d84ce3b35ac3f7746b7e6b
+run_name: nervous-chimp-19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766973976742
+status: 3
+tags: []
+user_id: koush

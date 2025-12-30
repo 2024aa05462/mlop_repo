@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/koush/OneDrive/Documents/BITS%20Pilani/MLOPS/heart_disease_mlops/mlruns/674684405292146936/64d153f0534349d58162ba4b8821615e/artifacts
+end_time: 1766973994446
+entry_point_name: ''
+experiment_id: '674684405292146936'
+lifecycle_stage: active
+run_id: 64d153f0534349d58162ba4b8821615e
+run_name: amusing-bass-300
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766973976742
+status: 3
+tags: []
+user_id: koush

@@ -1,0 +1,1 @@
+{'classifier__n_estimators': [100, 200], 'classifier__max_depth': [10, 20]}

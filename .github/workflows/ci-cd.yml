@@ -225,6 +225,7 @@ jobs:
 
       - name: Install test dependencies
         run: |
+          pip install -r requirements.txt
           pip install requests pytest
 
       - name: Run integration tests

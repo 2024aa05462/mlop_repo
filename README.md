@@ -122,7 +122,9 @@ open http://localhost:8000/docs
 |------------|-----|--------|
 | Docker (local) | http://localhost:8000 | ✅ Working |
 | Kubernetes (local) | http://localhost:80 | ✅ Working |
-| **Render (cloud)** | https://heart-disease-api.onrender.com | 🚀 [Deploy Guide](QUICKSTART.md#deploy-to-cloud-rendercom---free) |
+| **Render (cloud)** | https://heart-disease-api-sdgp.onrender.com | ✅ Live |
+
+> ⚠️ **Note**: Grafana monitoring dashboard is only available in **local deployment** (Docker/Kubernetes). Cloud deployment (Render) only exposes the `/metrics` endpoint. **Local deployment is preferred** for full functionality.
 
 ---
 

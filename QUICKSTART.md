@@ -280,6 +280,8 @@ Error: Cannot connect to the Docker daemon
 
 Deploy your API to the cloud with a public URL!
 
+> ⚠️ **Important**: Grafana monitoring dashboard is **only available in local deployment** (Docker/Kubernetes). Cloud deployment only exposes the `/metrics` endpoint. **Local deployment is preferred** for full functionality including monitoring.
+
 ### Step 1: Create Render Account
 
 1. Go to [render.com](https://render.com)
@@ -313,22 +315,22 @@ Deploy your API to the cloud with a public URL!
 - Check build logs in Render dashboard
 - Once deployed, you'll get a URL like:
   ```
-  https://heart-disease-api.onrender.com
+  https://heart-disease-api-sdgp.onrender.com
   ```
 
 ### Step 4: Test Your Live API
 
 ```bash
 # Health check
-curl https://heart-disease-api.onrender.com/health
+curl https://heart-disease-api-sdgp.onrender.com/health
 
 # Make prediction
-curl -X POST https://heart-disease-api.onrender.com/predict \
+curl -X POST https://heart-disease-api-sdgp.onrender.com/predict \
   -H "Content-Type: application/json" \
   -d '{"age":63,"sex":1,"cp":3,"trestbps":145,"chol":233,"fbs":1,"restecg":0,"thalach":150,"exang":0,"oldpeak":2.3,"slope":0,"ca":0,"thal":1}'
 
 # View docs
-open https://heart-disease-api.onrender.com/docs
+open https://heart-disease-api-sdgp.onrender.com/docs
 ```
 
 ### Render Free Tier Notes

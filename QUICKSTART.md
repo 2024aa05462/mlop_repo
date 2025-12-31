@@ -6,7 +6,7 @@ This guide provides step-by-step instructions to clone and run the Heart Disease
 
 ## 🔗 Important Links (Quick Reference)
 
-### Live API (Render - Cloud)
+### Public Cloud Live API (Render - Cloud)
 | Page | URL |
 |------|-----|
 | 🏠 **API Home** | https://heart-disease-api-sdgp.onrender.com |

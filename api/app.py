@@ -278,7 +278,7 @@ def predict(request: PredictionRequest):
         duration_ms = duration * 1000
         
         # Update metrics
-        global prediction_count, prediction_success, total_latency_ms, predictions_by_class
+        global prediction_count, prediction_success, total_latency_ms
         prediction_count += 1
         prediction_success += 1
         total_latency_ms += duration_ms

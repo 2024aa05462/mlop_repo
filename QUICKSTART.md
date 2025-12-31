@@ -95,11 +95,10 @@ curl -X POST http://localhost:8000/predict \
 
 Open in your browser:
 
-| Documentation | URL |
-|---------------|-----|
-| **Swagger UI** | http://localhost:8000/docs |
-| **ReDoc** | http://localhost:8000/redoc |
-| **API Info** | http://localhost:8000/ |
+| Page | URL | Description |
+|------|-----|-------------|
+| **Swagger UI** | http://localhost:8000/docs | Interactive API documentation |
+| **API Info** | http://localhost:8000/ | Basic API information |
 
 ---
 

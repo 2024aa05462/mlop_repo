@@ -33,28 +33,19 @@ This guide provides step-by-step instructions to clone and run the Heart Disease
 | 🔮 **Predict Endpoint** | http://localhost:80/predict |
 | 📊 **Metrics** | http://localhost:80/metrics |
 
-### Monitoring Stack (Local Only)
-| Service | URL | Credentials | Start Command |
-|---------|-----|-------------|---------------|
-| 📈 **Grafana Dashboard** | http://localhost:3000/d/heart-disease-api/heart-disease-api-dashboard | admin / admin | See below |
-| 🔍 **Prometheus** | http://localhost:9090 | - | See below |
+### Monitoring Stack (Local Only - All Start Together)
+| Service | URL | Credentials |
+|---------|-----|-------------|
+| 📈 **Grafana Dashboard** | http://localhost:3000/d/heart-disease-api/heart-disease-api-dashboard | admin / admin |
+| 🔍 **Prometheus** | http://localhost:9090 | - |
+| 📋 **MLflow UI** | http://localhost:5000 | - |
 
 ```bash
-# Start Grafana + Prometheus
+# Start ALL monitoring services (Grafana + Prometheus + MLflow)
 cd monitoring && docker-compose -f docker-compose-monitoring.yml up -d
 ```
 
-### MLflow UI (Local Only)
-| Service | URL | Start Command |
-|---------|-----|---------------|
-| 📋 **MLflow UI** | http://localhost:5000 | `mlflow ui --port 5000` |
-
-```bash
-# Start MLflow UI (run from project root)
-mlflow ui --backend-store-uri ./mlruns --port 5000
-```
-
-> ⚠️ **Note**: Grafana, Prometheus, and MLflow are only available in **local deployment**.
+> ⚠️ **Note**: Grafana, Prometheus, and MLflow are only available in **local deployment**. All three services start automatically with the single command above.
 
 ---
 

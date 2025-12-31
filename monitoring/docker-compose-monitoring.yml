@@ -57,6 +57,20 @@ services:
     networks:
       - monitoring
 
+  # MLflow for experiment tracking UI
+  mlflow:
+    image: python:3.10-slim
+    container_name: mlflow
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../mlruns:/mlruns
+    working_dir: /mlruns
+    command: >
+      bash -c "pip install mlflow --quiet && mlflow ui --host 0.0.0.0 --port 5000 --backend-store-uri /mlruns"
+    networks:
+      - monitoring
+
 volumes:
   prometheus-data:
   grafana-data:

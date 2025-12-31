@@ -36,7 +36,7 @@ safety>=2.3.0
 prometheus-client>=0.17.0
 
 # Workflow Orchestration (optional)
-# prefect>=2.14.0
+prefect>=2.14.0
 
 # Data Loading
 ucimlrepo>=0.0.3

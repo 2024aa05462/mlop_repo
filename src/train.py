@@ -3,8 +3,15 @@ import xgboost as xgb
 import mlflow
 import mlflow.xgboost
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
-from prefect import task
 import yaml
+
+# Optional prefect import for workflow orchestration
+try:
+    from prefect import task
+except ImportError:
+    def task(fn):
+        return fn
+
 
 @task
 def train_model(X_train, X_test, y_train, y_test, config_path: str = "config.yaml"):

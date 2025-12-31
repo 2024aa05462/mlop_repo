@@ -9,7 +9,7 @@
 
 A production-ready MLOps pipeline for predicting heart disease risk using the UCI Heart Disease dataset. This project demonstrates end-to-end ML model development, CI/CD, containerization, and cloud deployment.
 
-🚀 **[Quick Start Guide (Docker)](QUICKSTART.md)** | 📄 **[Full Assignment Report](reports/MLOps_Assignment_Report.md)** | 🔗 **[GitHub Repository](https://github.com/shahrukhsaba/mlops)** | 🌐 **[Live API (Render)](https://heart-disease-api-sdgp.onrender.com/docs)**
+🚀 **[Quick Start Guide (Docker)](QUICKSTART.md)** | 📄 **[Full Assignment Report](reports/MLOps_Assignment_Report.md)** | 🔗 **[GitHub Repository](https://github.com/shahrukhsaba/mlops)** | 🌐 **[Public Cloud Live API (Render)](https://heart-disease-api-sdgp.onrender.com/docs)**
 
 ---
 
@@ -1099,5 +1099,6 @@ This project is licensed under the MIT License.
 
 - UCI Machine Learning Repository for the Heart Disease dataset
 - BITS Pilani for the MLOps course
+
 
 

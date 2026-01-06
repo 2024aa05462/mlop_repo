@@ -20,58 +20,19 @@ import json
 # Pydantic model for JSON input
 class PredictionRequest(BaseModel):
     """Request model for heart disease prediction with JSON input."""
-    age: int = Field(
-        ..., ge=0, le=120,
-        description="Patient's age in years. Min: 0, Max: 120. Example: 63"
-    )
-    sex: int = Field(
-        ..., ge=0, le=1,
-        description="Patient's sex. Values: 0 = Female, 1 = Male"
-    )
-    cp: int = Field(
-        ..., ge=0, le=3,
-        description="Chest Pain Type. Values: 0 = Typical Angina, 1 = Atypical Angina, 2 = Non-anginal Pain, 3 = Asymptomatic"
-    )
-    trestbps: int = Field(
-        ..., ge=0, le=300,
-        description="Resting Blood Pressure (mm Hg). Min: 0, Max: 300. Normal range: 90-120"
-    )
-    chol: int = Field(
-        ..., ge=0, le=600,
-        description="Serum Cholesterol (mg/dl). Min: 0, Max: 600. Normal: <200, Borderline: 200-239, High: ≥240"
-    )
-    fbs: int = Field(
-        ..., ge=0, le=1,
-        description="Fasting Blood Sugar > 120 mg/dl. Values: 0 = No (≤120), 1 = Yes (>120)"
-    )
-    restecg: int = Field(
-        ..., ge=0, le=2,
-        description="Resting ECG Results. Values: 0 = Normal, 1 = ST-T Wave Abnormality, 2 = Left Ventricular Hypertrophy"
-    )
-    thalach: int = Field(
-        ..., ge=0, le=250,
-        description="Maximum Heart Rate Achieved (bpm). Min: 0, Max: 250. Typical range: 60-200"
-    )
-    exang: int = Field(
-        ..., ge=0, le=1,
-        description="Exercise Induced Angina. Values: 0 = No, 1 = Yes"
-    )
-    oldpeak: float = Field(
-        ..., ge=0, le=10,
-        description="ST Depression Induced by Exercise Relative to Rest. Min: 0.0, Max: 10.0. Typical: 0-4"
-    )
-    slope: int = Field(
-        ..., ge=0, le=2,
-        description="Slope of Peak Exercise ST Segment. Values: 0 = Upsloping, 1 = Flat, 2 = Downsloping"
-    )
-    ca: int = Field(
-        ..., ge=0, le=4,
-        description="Number of Major Vessels Colored by Fluoroscopy. Values: 0, 1, 2, 3, or 4"
-    )
-    thal: int = Field(
-        ..., ge=0, le=3,
-        description="Thalassemia (Blood Disorder). Values: 0 = Normal, 1 = Fixed Defect, 2 = Reversible Defect, 3 = Unknown"
-    )
+    age: int = Field(..., ge=0, le=120, description="Age in years")
+    sex: int = Field(..., ge=0, le=1, description="Sex (1=male, 0=female)")
+    cp: int = Field(..., ge=0, le=3, description="Chest pain type (0-3)")
+    trestbps: int = Field(..., ge=0, le=300, description="Resting blood pressure")
+    chol: int = Field(..., ge=0, le=600, description="Serum cholesterol in mg/dl")
+    fbs: int = Field(..., ge=0, le=1, description="Fasting blood sugar > 120 mg/dl")
+    restecg: int = Field(..., ge=0, le=2, description="Resting ECG results (0-2)")
+    thalach: int = Field(..., ge=0, le=250, description="Maximum heart rate achieved")
+    exang: int = Field(..., ge=0, le=1, description="Exercise induced angina")
+    oldpeak: float = Field(..., ge=0, le=10, description="ST depression induced by exercise")
+    slope: int = Field(..., ge=0, le=2, description="Slope of peak exercise ST segment")
+    ca: int = Field(..., ge=0, le=4, description="Number of major vessels colored by fluoroscopy")
+    thal: int = Field(..., ge=0, le=3, description="Thalassemia (0=normal, 1=fixed defect, 2=reversible defect)")
 
     class Config:
         json_schema_extra = {

@@ -3,8 +3,6 @@
 
 **Course**: MLOps (S1-25_AIMLCZG523)  
 **Institution**: BITS Pilani  
-**Student Name**: Sk Shahrukh Saba  
-**Student ID**: [Your ID]  
 **Date**: December 2025  
 **GitHub Repository**: https://github.com/shahrukhsaba/mlops
 

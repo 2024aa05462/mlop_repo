@@ -6,6 +6,18 @@
 
 **BITS Pilani - MLOps Assignment (S1-25_AIMLCZG523)**
 
+### Group No 122
+
+| # | Group Member Name | BITS Email ID | Contribution |
+|---|-------------------|---------------|--------------|
+| 1 | SK SHAHRUKH SABA | 2024aa05401@wilp.bits-pilani.ac.in | 100% |
+| 2 | SANKHA CHAKRABORTY | 2024AA05393@wilp.bits-pilani.ac.in | 100% |
+| 3 | NEELASHA ROY | 2024aa05698@wilp.bits-pilani.ac.in | 100% |
+| 4 | ARUNAVA DUTTA | 2024aa05374@wilp.bits-pilani.ac.in | 100% |
+| 5 | BHUPENDRA KUMAR PAL | 2024aa05462@wilp.bits-pilani.ac.in | 100% |
+
+---
+
 A production-ready MLOps pipeline for predicting heart disease risk using the UCI Heart Disease dataset. This project demonstrates end-to-end ML model development, CI/CD, containerization, and cloud deployment.
 
 🚀 **[Quick Start Guide (Docker)](QUICKSTART.md)** | 📄 **[Full Assignment Report](reports/MLOps_Assignment_Report.md)** | 🔗 **[GitHub Repository](https://github.com/shahrukhsaba/mlops)** | 🌐 **[Public Cloud Live API (Render)](https://heart-disease-api-sdgp.onrender.com/docs)** | 📄 **[Docx Report 10 Pages](https://github.com/shahrukhsaba/mlops/blob/main/Group122MLOpsAssignment_Final_Report.docx)**

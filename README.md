@@ -10,6 +10,7 @@ A production-ready MLOps pipeline for predicting heart disease risk using the UC
 
 🚀 **[Quick Start Guide (Docker)](QUICKSTART.md)** | 📄 **[Full Assignment Report](reports/MLOps_Assignment_Report.md)** | 🔗 **[GitHub Repository](https://github.com/shahrukhsaba/mlops)** | 🌐 **[Public Cloud Live API (Render)](https://heart-disease-api-sdgp.onrender.com/docs)**
 
+Docx Report: https://github.com/shahrukhsaba/mlops/blob/main/Group122MLOpsAssignment_Final_Report.docx
 ---
 
 ## 📊 Assignment Tasks Completion Summary
@@ -1113,6 +1114,7 @@ Running `python scripts/execute_notebooks.py` generates all notebook screenshots
 
 - UCI Machine Learning Repository for the Heart Disease dataset
 - BITS Pilani for the MLOps course
+
 
 
 
